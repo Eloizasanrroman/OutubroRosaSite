@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #ffeaf4;
+}
+
+header {
+    background-color: #ff359a;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;          
+}
+
+header h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;  
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 225, 236);
+}
+
+
+
+
+
+h2 {
+    color: #ff5aaa;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section {
+    margin: 70px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.linha2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ff5aaa;
+    border-radius: 50%;   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 10px 30px #ff6cb3;
+}
+
+.circulo:hover {
+    transform: translateY(-0.1px);
+    box-shadow: 0 15px 35px #ff4ea4;
+}
+
+.img-circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;  
+}
+
+.explicacao {
+    width: 300px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 20px;   
+    box-shadow: 0 7px 20px #ff6cb3;
+}
+
+.explicacao h3 {
+    padding: 15px 20px 5px; 
+    color: #ff4ea4;
+    font-size: 14px;
+}
+
+.explicacao p {
+    padding: 0 20px 10px; 
+    font-size: 14px;
+}
+
+.explicacao:hover {
+    transform: translateY(-0.1px);
+    box-shadow: 0 15px 35px #ff4ea4;
+}
+
+
+
+.alerta-prevenção {
+    background-color: #ffffff;
+    color: #6b515e;
+    padding: 40px 100px;
+    margin-top: 30px;   
+    margin-bottom: 0;
+    box-shadow: 0 8px 25px rgba(255, 108, 179, 0.4);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.alerta-prevenção strong {
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #ff359a;
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+}
